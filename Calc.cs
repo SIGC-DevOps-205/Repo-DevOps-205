@@ -39,6 +39,12 @@ namespace Testing
             txtResult.Text = InputResult.ToString();
         }
 
+        private void myfunction()
+        {
+            Console.WriteLine("hello");
+        }
+        
+
         private void btnDiv_Click(object sender, EventArgs e)
         {
             if (!ValidateInput()) return;
